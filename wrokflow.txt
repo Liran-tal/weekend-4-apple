@@ -1,0 +1,18 @@
+' * ' marks note added after work started
+
+1 	create index.html, css, assets folders. create and connect git repo.
+2		go through the page, try to break it into pieces.
+	2.1		panick!!!!
+	2.2		navbar
+	2.3		shop line about the size of the navbar
+	2.4		sections 1-3
+		2.4.1		link as  picture takes most of page
+		2.4.2		middle of page a link to shop gift
+	2.5		section-4
+		2.5.1		6 continers like before displayed in grid
+	2.6 	section-5
+		2.6.1		container for text paragraphs
+		2.6.2		navigation links - seperated into blocks of lists. Blocks in grid
+		2.6.3		more ways to shop
+		2.6.3		footer navbar
+
