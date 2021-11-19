@@ -1,5 +1,3 @@
-' * ' marks note added after work started
-
 1 	create index.html, css, assets folders. create and connect git repo.
 2		go through the page, try to break it into pieces.
 	2.1		panick!!!!
@@ -15,4 +13,6 @@
 		2.6.2		navigation links - seperated into blocks of lists. Blocks in grid
 		2.6.3		more ways to shop
 		2.6.3		footer navbar
-
+3		navbar. In devtools, see what its made of.
+	3.1		panick!!!!
+	3.2		
