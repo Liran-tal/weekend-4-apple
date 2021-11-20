@@ -72,10 +72,17 @@ header .navbar a{
 
 .icon{ 
 	display: inline-block;
-	color: white;
+	padding-top: 5px;
 	padding-left: 0.3em;
-	font-size: inherit;
-	font-weight: inherit;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.231px;
+	line-height: 29.001px;
+	text-align: center;
+	text-decoration-color: rgb(0, 102, 204);
+	color: rgb(0, 102, 204);
+	cursor: pointer;
 }
 
 .fa-chevron-right{
@@ -96,3 +103,15 @@ header .navbar a{
 	text-align: center;
 	text-size-adjust: 100%;
 }
+
+.subhead{
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.112px;
+	line-height: 31.0022px;
+	text-align: center;
+	text-size-adjust: 100%;
+	color: rgb(29, 29, 31);
+}
+

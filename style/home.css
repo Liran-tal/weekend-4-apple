@@ -27,7 +27,8 @@ header h1{
 	background-color: rgb(227, 65, 64);
 }
 
-.ribbon-content-wrapper p{
+.ribbon-content-wrapper p,
+.ribbon-content-wrapper a {
 	padding: 0px 12px;
 	color: white;
 	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -38,10 +39,6 @@ header h1{
 	line-height: 20.5883px;
 	text-align: center;
 	text-size-adjust: 100%;
-}
-
-.ribbon-content-wrapper p a{
-	color: white;
 }
 
 /* Section: gifts */
@@ -84,3 +81,74 @@ header h1{
 	background-size: 70px 88px;
 }
 
+.unit-img-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 29px;
+	text-align: center;
+	color: rgb(29, 29, 31);
+	z-index: 1;
+}
+
+.home-gift-img1,
+.home-gift-img2,
+.home-gift-img3{
+	width: 289px;
+	height: 281px;
+	background-size: 289px 281px;
+	z-index: 4;
+}
+.home-gift-img1{
+	background-image: url(https://www.apple.com/v/home/ah/images/heroes/holiday-2021/set-b/airpods__b0941p5gmwj6_large.png);
+}
+
+.home-gift-img2{
+	background-image: url(https://www.apple.com/v/home/ah/images/heroes/holiday-2021/set-b/watch__csqqcayzqueu_large.png);
+}
+
+.home-gift-img3{
+	background-image: url(https://www.apple.com/v/home/ah/images/heroes/holiday-2021/set-b/ipadmini__f0pd6cilwaie_large.png);
+}
+
+/* TODO: animations for the spinners */
+/* .unit-image-rotate{
+	animation-delay: 0.125s;
+	animation-direction: normal;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-name: rotate;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+} */
+
+.iphone-13-pro{
+	position: relative;
+	padding: 50px;
+}
+
+.iphone-13-pro-hero{
+	bottom: 0px;
+	display: block;
+	height: 570px;
+	left: -750px;
+	overflow-x: hidden;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	position: absolute;
+	right: -2000.4px;
+	top: 0px;
+	width: 3010px;
+	background-image: url(../assets/images/hero_iphone_13pro__dhnsegysa42u_large.jpg);
+	background-size: 3010px 624px;
+	border-image-repeat: stretch;
+	z-index: -1;
+}
