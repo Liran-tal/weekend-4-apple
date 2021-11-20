@@ -15,4 +15,8 @@
 		2.6.3		footer navbar
 3		navbar. In devtools, see what its made of.
 	3.1		panick!!!!
-	3.2		
+	3.2		download SVGs and add them to html + href + alt
+	3.2		work on css 
+4 	main
+	4.1		shop red line
+		4.1.1		

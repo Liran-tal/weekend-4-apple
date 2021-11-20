@@ -1,0 +1,86 @@
+header h1{
+	display: inline;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	height: 1px;
+	width: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+
+/* Ribbon */
+
+.ribbon-content-wrapper{
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -0.374px;
+	line-height: 25px;
+	text-align: center;
+	background-color: rgb(227, 65, 64);
+}
+
+.ribbon-content-wrapper p{
+	padding: 0px 12px;
+	color: white;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -0.374px;
+	line-height: 20.5883px;
+	text-align: center;
+	text-size-adjust: 100%;
+}
+
+.ribbon-content-wrapper p a{
+	color: white;
+}
+
+/* Section: gifts */
+
+.wide-wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 580px;
+	position: relative;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -0.374px;
+	line-height: 25px;
+	text-align: left;
+	text-size-adjust: 100%;
+}
+
+.shoping-season{
+	background-color: rgb(234, 242, 252);
+	background-size: auto;
+}
+
+.unit-copy-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 29px;
+	text-align: center;
+	color: rgb(29, 29, 31);
+	z-index: 4;
+}
+
+.apple-holiday-logo{
+	height: 88px;
+	width: 70px;
+	background-image: url(https://www.apple.com/v/home/ah/images/logos/holiday-2021/logo__dcojfwkzna2q_large.png);
+	background-size: 70px 88px;
+}
+
