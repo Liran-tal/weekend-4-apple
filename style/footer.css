@@ -1,0 +1,102 @@
+/* General */
+
+footer{
+	background-color: rgb(245, 245, 247);
+}
+
+.footer-wrapper{
+	width: 65vw;
+	margin: auto;
+	padding: 0px 22px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 16.0004px;
+	text-align: left;
+	text-size-adjust: 100%;
+	color: rgb(110, 110, 115);
+}
+
+.footer-wrapper a{
+	color: rgb(110, 110, 115);
+}
+
+/* Footnotes */
+
+.footnotes-wrapper{
+	padding: 17px 0px 11px 0px;
+	border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+.footnotes-wrapper p{
+	padding-bottom: 9.6px;
+}
+
+/* Links Grid */
+
+.footer-links-grid-wrapper{
+	padding-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.footer-links-col-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: flex-start;
+}
+
+.footer-links-grid-wrapper ul{
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+/* Footer botton section */
+
+.footer-bottom-section{
+	width: 100%;
+	padding: 34px 0px 21px 0px;
+}
+
+.footer-more-shop{
+	padding-bottom: 8px;
+	margin-bottom: 7px;
+	border-bottom: 1px solid rgb(210, 210, 215);
+}
+
+.footer-more-shop a{
+	color: rgb(0, 102, 204);
+}
+
+.footer-bottom-line{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-bottom-line-left{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-bottom-line-nav{
+	margin-left: 30px;
+}
+
+.footer-bottom-line-nav a{
+	color: rgb(66, 66, 69);
+	padding: 0px 5px;
+	margin-top: 7px;
+	border: solid rgb(210, 210, 215);
+	border-width: 0px 1px;
+}

@@ -1,4 +1,5 @@
-header h1{
+header h1,
+footer h2{
 	display: inline;
 	position: absolute;
 	padding: 0px;
@@ -167,7 +168,6 @@ header h1{
 .iphone-13-hero{
 	bottom: 0px;
 	display: block;
-	/* height: 570px; */
 	left: -750px;
 	position: absolute;
 	right: -2000.4px;
@@ -183,11 +183,13 @@ header h1{
 
 .grid-wrapper{
 	display: block;
+	border: 1px solid rgb(191, 72, 0);
 }
 
 .collection-module{
 	display: grid;
-	left: 12px;
+	width: 100vw;
+	/* left: 12px; */
 	position: relative;
 	z-index: 40;
 	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -198,18 +200,16 @@ header h1{
 	line-height: 25px;
 	text-align: left;
 	text-size-adjust: 100%;
-	color: rgb(29, 29, 31);
-	background-color: rgb(255, 255, 255);
-	border-bottom-color: rgb(255, 255, 255);
-	border-bottom-style: solid;
-	border-bottom-width: 12px;
-	grid-template-areas: none;
-	grid-template-columns: 741.6px 741.6px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(3, 1fr);
 	column-gap: 12px;
 	row-gap: 12px;
+	border: 1px solid rgb(191, 72, 0);
 }
 
 .promo-wrapper{
+	overflow-y: hidden;
+	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -247,4 +247,68 @@ header h1{
 	letter-spacing: 0.336px;
 	line-height: 26px;
 } 
+
+/* Macbook pro */
+
+.macbook-pro-tile{
+	height: 100%;
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	bottom: 50px;
+	left: -240.8px;
+	z-index: 1;
+	background-image: url(https://www.apple.com/v/home/ah/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_large.jpg);
+
+}
+
+/* watch-series-7 */
+.watch-wrapper{
+	position: relative;
+	overflow: hidden;
+}
+
+.watch-tile-new{
+	margin-top: 33px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -0.12px;
+	line-height: 16.0004px;
+	text-align: center;
+	text-size-adjust: 100%;
+	white-space: nowrap;
+	color: rgb(191, 72, 0);
+}
+
+.watch-series-7 h4{
+	margin-top: 3px;
+	height: 56px;
+	width: 430px;
+	background-image: url(https://www.apple.com/v/home/ah/images/logos/watch-series-7/tile_watch_logo_lte__h7snssb7mqq2_large.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 50%;
+}
+
+.watch-tile-img{
+	height: 100%;
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	bottom: 50px;
+	left: -240.8px;
+	z-index: 1;
+	background-image: url(https://www.apple.com/v/home/ah/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg);
+}
+
+/* homepod-mini */
+
+.homepod-wrapper{
+	position: relative;
+	overflow: hidden;
+}
 
