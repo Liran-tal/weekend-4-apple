@@ -183,13 +183,14 @@ footer h2{
 
 .grid-wrapper{
 	display: block;
-	border: 1px solid rgb(191, 72, 0);
+	width: 100vw;
+	padding: 0px 12px;
+
 }
 
 .collection-module{
 	display: grid;
 	width: 100vw;
-	/* left: 12px; */
 	position: relative;
 	z-index: 40;
 	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -201,10 +202,9 @@ footer h2{
 	text-align: left;
 	text-size-adjust: 100%;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: repeat(3, 1fr);
+	/* grid-template-rows: repeat(3, 1fr); */
 	column-gap: 12px;
 	row-gap: 12px;
-	border: 1px solid rgb(191, 72, 0);
 }
 
 .promo-wrapper{
@@ -213,11 +213,11 @@ footer h2{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 	padding: 0px;
 	height: 636px;
 	max-width: 50vw;
 	position: relative;
-	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 17px;
 	font-style: normal;
 	font-weight: 400;
@@ -312,3 +312,74 @@ footer h2{
 	overflow: hidden;
 }
 
+.homepod-tile-img{
+	height: 100%;
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	bottom: 50px;
+	left: -250.8px;
+	z-index: 1;
+	background-image: url(https://www.apple.com/v/home/ah/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+}
+
+/* arcade-lego-castaways */
+
+.arcade-lego-castaways h4{
+	height: 34px;
+	width: 430px;	
+	margin: 57px 0px 5px;
+	max-width: 430px;
+	background-image: url(https://www.apple.com/v/home/ah/images/logos/arcade/logo__dcojfwkzna2q_large.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.arcade-tile-img{
+	height: 100%;
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	bottom: 50px;
+	left: -240.8px;
+	z-index: 1;
+	background-image: url(https://www.apple.com/v/home/ah/images/promos/arcade-lego-castaways/tile_lego_castaways__d2v36ez91ewm_large.jpg);
+}
+
+
+/* Apple card */
+
+.apple-card{
+	position: relative;
+	overflow: hidden;
+}
+
+.apple-card h4{
+	height: 34px;
+	width: 430px;	
+	margin: 57px 0px 5px;
+	max-width: 430px;
+	background-image: url(https://www.apple.com/v/home/ah/images/logos/apple-card/logo__dcojfwkzna2q_large.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.apple-card h5{
+	padding: 0px 250px;
+}
+
+.apple-card-tile-img{
+	height: 100%;
+	width: 1024px;
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	bottom: 50px;
+	left: -240.8px;
+	z-index: 1;
+	background-image: url(https://www.apple.com/v/home/ah/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+}
